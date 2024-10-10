@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python dataframes"
+version = "0.1.0"
+description = ""
+authors = ["Ganesh Chandrasekaran"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = {extras = ["all"], version = "^1.6.0"}
+dask = {extras = ["dataframe"], version = "^2024.8.2"}
+pandas = "^2.2.2"
+aiohttp = "^3.10.9"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
